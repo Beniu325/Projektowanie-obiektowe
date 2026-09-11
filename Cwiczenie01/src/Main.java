@@ -12,4 +12,21 @@ void main() {
     System.out.println("\"cudzysłów\"");
     System.out.println("\'apostrof\'");
     System.out.println("backslash: \\");
+
+    int liczbaCalkowita = 5;
+    double liczbaRzeczywista;
+
+    liczbaRzeczywista = (double) liczbaCalkowita /2;
+
+    System.out.println("wynik dzielenia liczby 5 przez 2 to " + liczbaRzeczywista);
+
+    char znak = 'a' + 0;
+    System.out.println("Litera a ma wartość " + (znak + 0));
+
+    String napis = "napis";
+    System.out.println("Napis wielkimi literami: " + napis.toUpperCase());
+
+    System.out.println("Wynik 1 + 2 + 3 = " + 1 + 2 + 3);
+    System.out.println("Wynik 1 + 2 + 3 = " + (1 + 2 + 3));
+    System.out.println(1 + 2 + 3 + " to wynik 1 + 2 + 3");
 }
