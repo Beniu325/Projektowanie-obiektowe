@@ -1,11 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-    Scanner scanner = new Scanner(System.in);
+    System.out.println("Ania");
+    System.out.println("Bartek");
+    System.out.println("Kasia");
 
-    System.out.println("Podaj imię:  ");
-    String imie = scanner.nextLine();
+    String imie = "Patryk";
+    int data_uro = 2009;
+    int obecnyRok = 2026;
+    double liczba = 0.66;
 
-    System.out.println("Podaj wiek:  ");
-    String wiek = scanner.nextLine();
+    int wiek = obecnyRok - data_uro;
+
+    System.out.println("Mam na imię " + imie + ", mam " + wiek + " lat i będę pisać maturę za " + liczba + " roku.");
+
+    double stopnie = 0.1;
+    System.out.println();
+
+    Scanner scan = new Scanner(System.in);
+    System.out 
+
 }
