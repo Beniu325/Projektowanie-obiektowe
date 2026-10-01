@@ -21,10 +21,31 @@ void main() {
 //        potega *= 2;
 //    }
 
-    int suma = 0;
-    int liczba;
+//   zad 3 int suma = 0;
+//    int liczba;
+//
+//    System.out.println("Podej liczbe ziomuś no ale jak podasz 0 to kończy program):  ");
+//
+//    while (true) {
+//        liczba = scanner.nextInt();
+//
+//        if (liczba == 0) {
+//            break;
+//        }
+//
+//        suma += liczba;
+//    }
+//
+//    System.out.println("Suma podanych liczb: " + suma);
+//
+//}
 
-    System.out.println("Podej liczbe ziomuś no ale jak podasz 0 to kończy program):  ");
+        int liczba;
+        int suma = 0;
+        int min = 0;
+        int max = 0;
+        int ile = 0;
+    System.out.println("Podaj liczbę. 0 kończy program:  ");
 
     while (true) {
         liczba = scanner.nextInt();
@@ -33,11 +54,51 @@ void main() {
             break;
         }
 
+        if (ile == 0) {
+            min = liczba;
+            max = liczba;
+        } else {
+            if (liczba < min) {
+                min = liczba;
+            }
+
+            if (liczba > max) {
+                max = liczba;
+            }
+            }
+
         suma += liczba;
+        ile++;
+        }
+
+    if (ile == 0) {
+        System.out.println("nie podano liczb");
+    } else {
+        System.out.println("suma wiekszej i mniejszej liczby:  ");
+
+        double srednia = (double) suma / ile;
+
+        System.out.println("Średnia arytmetyczna:  " + srednia);
     }
 
-    System.out.println("Suma podanych liczb: " + suma);
+    }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
