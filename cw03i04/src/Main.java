@@ -38,50 +38,48 @@ void main() {
 //
 //    System.out.println("Suma podanych liczb: " + suma);
 //
-//}
+    // tablice 4
 
-        int liczba;
-        int suma = 0;
-        int min = 0;
-        int max = 0;
-        int ile = 0;
-    System.out.println("Podaj liczbę. 0 kończy program:  ");
 
-    while (true) {
-        liczba = scanner.nextInt();
 
-        if (liczba == 0) {
-            break;
-        }
+//    String[] niep = {"jeden","dwa", "trzy", "cztery", "piec", "szesc", "siedem",};
+//    int[] parz = {1,2,3,4,5};
+//
+//    System.out.println("test");
+//    for (int i = 1; i < parz.length; i += 2) {
+//        System.out.println(parz[i]);
+//    }
+//    System.out.println("test2");
+//    for (int i = 0; i < niep.length; i += 2) {
+//        System.out.println(niep[i]);
+//    }
 
-        if (ile == 0) {
-            min = liczba;
-            max = liczba;
-        } else {
-            if (liczba < min) {
-                min = liczba;
-            }
+//    int[] liczby = {5,3, 76, 42, 12, 54, 745, 1, 2313};
+//    System.out.println("najwieksza liczba");
+//    int top = liczby[0];
+//    for (int liczba : liczby) {
+//        if (liczba > top) {
+//            top = liczba;
+//        }
+//    }
+//    System.out.println(top);
 
-            if (liczba > max) {
-                max = liczba;
-            }
-            }
+//    String[] duze = {"pies", "type://soul", "Azure Latch", "Kocur szesciesiatydziewiaty"};
+//    for (String upper : duze) {
+//        System.out.println(upper.toUpperCase());
+//    }
 
-        suma += liczba;
-        ile++;
-        }
-
-    if (ile == 0) {
-        System.out.println("nie podano liczb");
-    } else {
-        System.out.println("suma wiekszej i mniejszej liczby:  ");
-
-        double srednia = (double) suma / ile;
-
-        System.out.println("Średnia arytmetyczna:  " + srednia);
+    String[] ala = new String[5];
+    for (int i = 0; i < 5; i++) {
+        System.out.println();
     }
 
-    }
+
+}
+
+
+
+
 
 
 
