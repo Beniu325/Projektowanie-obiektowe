@@ -69,10 +69,19 @@ void main() {
 //        System.out.println(upper.toUpperCase());
 //    }
 
-    String[] ala = new String[5];
-    for (int i = 0; i < 5; i++) {
-        System.out.println();
-    }
+//    String napis = "Ala ma kota";
+//
+//    StringBuilder builder = new StringBuilder();
+//    builder.append(napis);
+//    builder.append('1');
+//    builder.reverse();
+//
+//    String nowy = builder.toString();
+//
+//    System.out.println(nowy);
+
+
+    
 
 
 }
